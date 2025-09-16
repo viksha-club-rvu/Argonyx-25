@@ -34,7 +34,7 @@ const HeroSection = () => {
             '25
           </div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            The Ultimate Futuristic Hackathon Experience. Build the Future with AI/ML & Web Development.
+            The Ultimate Hackathon Experience at RV University. Build Your Vision with Complete Creative Freedom.
           </p>
         </div>
 
@@ -43,22 +43,20 @@ const HeroSection = () => {
           <div className="glass-card p-6 hover-glow">
             <Calendar className="w-8 h-8 text-primary mx-auto mb-3" />
             <h3 className="font-orbitron font-bold text-lg mb-2">When</h3>
-            <p className="text-muted-foreground">February 15-16, 2025</p>
-            <p className="text-sm text-muted-foreground">48 Hours of Innovation</p>
+            <p className="text-muted-foreground">October 10-11, 2025</p>
+            <p className="text-sm text-muted-foreground">21 Hours of Innovation</p>
           </div>
-          
           <div className="glass-card p-6 hover-glow">
             <MapPin className="w-8 h-8 text-secondary mx-auto mb-3" />
             <h3 className="font-orbitron font-bold text-lg mb-2">Where</h3>
-            <p className="text-muted-foreground">Tech Hub Campus</p>
-            <p className="text-sm text-muted-foreground">Virtual & In-Person</p>
+            <p className="text-muted-foreground">RV University</p>
+            <p className="text-sm text-muted-foreground">Block A & Satyajit Ray Hall</p>
           </div>
-          
           <div className="glass-card p-6 hover-glow">
             <Users className="w-8 h-8 text-accent mx-auto mb-3" />
             <h3 className="font-orbitron font-bold text-lg mb-2">Who</h3>
-            <p className="text-muted-foreground">500+ Hackers</p>
-            <p className="text-sm text-muted-foreground">Teams of 2-4</p>
+            <p className="text-muted-foreground">140 Hackers</p>
+            <p className="text-sm text-muted-foreground">Teams of up to 4</p>
           </div>
         </div>
 

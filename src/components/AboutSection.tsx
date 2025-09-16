@@ -4,7 +4,7 @@ import VerticalCard from './VerticalCard';
 const features = [
   {
     icon: Clock,
-    title: "48 Hours",
+    title: "21 Hours",
     description: "Non-stop coding marathon"
   },
   {
@@ -36,7 +36,7 @@ const AboutSection = () => {
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
               Argonyx '25 is the ultimate futuristic hackathon experience where innovation meets technology. 
-              Join 500+ brilliant minds for 48 hours of intense coding, learning, and building the future.
+              Join 500+ brilliant minds for 21 hours of intense coding, learning, and building the future.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Choose your path between AI/ML and Web Development verticals, tackle real-world problems, 

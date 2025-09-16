@@ -1,29 +1,26 @@
 const scheduleData = [
   {
-    day: "Day 1 - February 15",
+    day: "Day 1 - October 10, 2025 (Friday)",
     events: [
-      { time: "09:00", title: "Registration & Welcome", type: "general" },
-      { time: "10:00", title: "Opening Ceremony", type: "general" },
-      { time: "11:00", title: "Team Formation", type: "general" },
-      { time: "12:00", title: "Hacking Begins!", type: "hack" },
-      { time: "13:00", title: "Lunch Break", type: "break" },
-      { time: "15:00", title: "AI/ML Workshop", type: "workshop" },
-      { time: "17:00", title: "Web Dev Bootcamp", type: "workshop" },
-      { time: "19:00", title: "Dinner", type: "break" },
-      { time: "21:00", title: "Midnight Snacks", type: "break" }
+      { time: "15:00", title: "Reporting Time", type: "general" },
+      { time: "15:30", title: "Registration & Tag Distribution", type: "general" },
+      { time: "16:00", title: "Hackathon Kick-Off", type: "hack" },
+      { time: "18:00", title: "Tea/Coffee Break", type: "break" },
+      { time: "20:45", title: "Dinner Break", type: "break" },
+      { time: "21:45", title: "Continue Hacking Period", type: "hack" }
     ]
   },
   {
-    day: "Day 2 - February 16",
+    day: "Day 2 - October 11, 2025 (Saturday)", 
     events: [
-      { time: "08:00", title: "Breakfast", type: "break" },
-      { time: "10:00", title: "Mentor Sessions", type: "workshop" },
-      { time: "12:00", title: "Lunch", type: "break" },
-      { time: "14:00", title: "Final Sprint", type: "hack" },
-      { time: "16:00", title: "Submission Deadline", type: "deadline" },
-      { time: "17:00", title: "Project Presentations", type: "presentation" },
-      { time: "19:00", title: "Judging & Awards", type: "general" },
-      { time: "20:30", title: "Closing Ceremony", type: "general" }
+      { time: "01:00", title: "Tea/Coffee Break", type: "break" },
+      { time: "02:30", title: "Faculty & Mentor Round", type: "workshop" },
+      { time: "07:00", title: "Hackathon Ends", type: "deadline" },
+      { time: "07:00", title: "Breakfast", type: "break" },
+      { time: "08:00", title: "Rest Break & Transition to Auditorium", type: "general" },
+      { time: "08:45", title: "Pitching & Presentations Begin", type: "presentation" },
+      { time: "11:45", title: "Pitching Sessions End", type: "presentation" },
+      { time: "12:00", title: "Prize Distribution & Closing Ceremony", type: "general" }
     ]
   }
 ];
@@ -54,7 +51,7 @@ const ScheduleSection = () => {
             Event Schedule
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            48 hours of intense coding, learning, and innovation
+            21 hours of intense coding, innovation, and competition
           </p>
         </div>
 
@@ -64,12 +61,12 @@ const ScheduleSection = () => {
               <h3 className="text-2xl font-orbitron font-bold text-gradient mb-8 text-center">
                 {day.day}
               </h3>
-              
               <div className="space-y-4">
                 {day.events.map((event, eventIndex) => (
                   <div
                     key={eventIndex}
-                    className={`flex items-center gap-4 p-4 rounded-lg border transition-all duration-300 hover:scale-105 ${getEventTypeStyle(event.type)}`}
+                    className={`flex items-center gap-4 p-4 rounded-lg border transition-all duration-300 hover:scale-105 
+                      ${getEventTypeStyle(event.type)}`}
                   >
                     <div className="font-orbitron font-bold text-lg min-w-[60px]">
                       {event.time}

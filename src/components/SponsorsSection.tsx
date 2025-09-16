@@ -7,7 +7,7 @@ const sponsors = [
     ]
   },
   {
-    tier: "Gold",
+    tier: "Gold", 
     companies: [
       { name: "CodeWorks", logo: "💻" },
       { name: "DataSphere", logo: "🌐" },
@@ -26,12 +26,12 @@ const sponsors = [
 ];
 
 const collaborators = [
-  { name: "IEEE Student Branch", type: "Academic", logo: "🎓" },
-  { name: "Google Developers", type: "Community", logo: "🔍" },
+  { name: "RV University", type: "Host Institution", logo: "🎓" },
+  { name: "SoCSE", type: "Department", logo: "💡" },
   { name: "GitHub Campus", type: "Platform", logo: "📦" },
-  { name: "AWS Educate", type: "Cloud", logo: "☁️" },
+  { name: "Google Developers", type: "Community", logo: "🔍" },
   { name: "Microsoft Learn", type: "Education", logo: "📚" },
-  { name: "MLH", type: "Community", logo: "🎪" },
+  { name: "AWS Educate", type: "Cloud", logo: "☁️" },
 ];
 
 const SponsorsSection = () => {
@@ -57,7 +57,7 @@ const SponsorsSection = () => {
             Our Sponsors
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Powered by industry leaders who believe in innovation
+            Powered by industry leaders who believe in student innovation
           </p>
         </div>
 
@@ -67,13 +67,12 @@ const SponsorsSection = () => {
               <h3 className={`text-2xl font-orbitron font-bold mb-8 bg-gradient-to-r ${getTierColor(tier.tier)} bg-clip-text text-transparent`}>
                 {tier.tier} Sponsors
               </h3>
-              
               <div className={`grid gap-6 ${
                 tier.tier === 'Platinum' 
                   ? 'grid-cols-1 md:grid-cols-2' 
                   : tier.tier === 'Gold' 
-                    ? 'grid-cols-1 md:grid-cols-3' 
-                    : 'grid-cols-2 md:grid-cols-4'
+                  ? 'grid-cols-1 md:grid-cols-3' 
+                  : 'grid-cols-2 md:grid-cols-4'
               }`}>
                 {tier.companies.map((company, index) => (
                   <div
@@ -126,7 +125,7 @@ const SponsorsSection = () => {
             Become a Sponsor
           </h3>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Join us in empowering the next generation of innovators and showcase your brand to brilliant minds
+            Join us in empowering the next generation of innovators at RV University and showcase your brand to brilliant minds
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-4 bg-gradient-cyber text-foreground font-orbitron font-bold rounded-xl hover:scale-105 transition-transform duration-300 shadow-glow-primary">

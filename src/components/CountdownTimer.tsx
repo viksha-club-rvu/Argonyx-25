@@ -8,8 +8,8 @@ interface TimeLeft {
 }
 
 const CountdownTimer = () => {
-  // Set hackathon date - Feb 15, 2025
-  const targetDate = new Date('2025-02-15T09:00:00').getTime();
+  // Set hackathon date - October 10, 2025 at 3:00 PM (15:00)
+  const targetDate = new Date('2025-10-10T15:00:00').getTime();
   
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({
     days: 0,
