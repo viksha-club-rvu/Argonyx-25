@@ -1,6 +1,20 @@
 import { Button } from '@/components/ui/button';
 import { Calendar, MapPin, Users } from 'lucide-react';
 import CountdownTimer from './CountdownTimer';
+// App.tsx or HomePage.tsx
+import AboutSection from './AboutSection';
+
+function HomePage() {
+  return (
+    <>
+      {/* other sections */}
+      <section id="about">
+        <AboutSection />
+      </section>
+      {/* other sections */}
+    </>
+  );
+}
 
 const HeroSection = () => {
   return (
@@ -70,12 +84,16 @@ const HeroSection = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a href="https://unstop.com/p/argonyx-25-rv-university-bangalore-1558242" target="_blank" rel="noopener noreferrer">
           <Button variant="cyber" size="lg" className="text-lg px-8 py-6">
             Register Now
           </Button>
+          </a>
+          <a href="#about">
           <Button variant="outline" size="lg" className="text-lg px-8 py-6">
             Learn More
           </Button>
+</a>
         </div>
       </div>
     </section>
