@@ -51,7 +51,7 @@ const ScheduleSection = () => {
             Event Schedule
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            21 hours of intense coding, innovation, and competition
+            15 hours of intense coding, innovation, and competition
           </p>
         </div>
 
