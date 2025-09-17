@@ -43,9 +43,9 @@ const VerticalCard = ({ title, description, features, icon: Icon, gradient }: Ve
         </div>
 
         {/* CTA */}
-        <Button variant="ghost" className="w-full group-hover:bg-primary/20">
+        {/* <Button variant="ghost" className="w-full group-hover:bg-primary/20">
           Explore {title}
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

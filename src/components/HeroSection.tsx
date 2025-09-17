@@ -43,10 +43,8 @@ const HeroSection = () => {
         <div className="mb-8">
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-orbitron font-black text-gradient mb-4 tracking-wider">
             ARGONYX
+            <span className="ml-2 align-baseline text-2xl md:text-4xl font-orbitron font-bold text-secondary">'25</span>
           </h1>
-          <div className="text-2xl md:text-4xl font-orbitron font-bold text-secondary mb-2">
-            '25
-          </div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             The Ultimate Hackathon Experience at RV University. Build Your Vision with Complete Creative Freedom.
           </p>
@@ -58,7 +56,7 @@ const HeroSection = () => {
             <Calendar className="w-8 h-8 text-primary mx-auto mb-3" />
             <h3 className="font-orbitron font-bold text-lg mb-2">When</h3>
             <p className="text-muted-foreground">October 10-11, 2025</p>
-            <p className="text-sm text-muted-foreground">21 Hours of Innovation</p>
+            <p className="text-sm text-muted-foreground">Overnight Hackathon</p>
           </div>
           <div className="glass-card p-6 hover-glow">
             <MapPin className="w-8 h-8 text-secondary mx-auto mb-3" />
@@ -69,8 +67,8 @@ const HeroSection = () => {
           <div className="glass-card p-6 hover-glow">
             <Users className="w-8 h-8 text-accent mx-auto mb-3" />
             <h3 className="font-orbitron font-bold text-lg mb-2">Who</h3>
-            <p className="text-muted-foreground">140 Hackers</p>
-            <p className="text-sm text-muted-foreground">Teams of up to 4</p>
+            <p className="text-muted-foreground">All UG Students</p>
+            <p className="text-sm text-muted-foreground">Teams of 2 - 4 members</p>
           </div>
         </div>
 

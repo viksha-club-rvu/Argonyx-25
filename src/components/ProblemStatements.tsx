@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button';
+import { buttonVariants } from '@/components/ui/button';
 
 const ProblemStatements = () => {
   return (
@@ -50,9 +50,12 @@ const ProblemStatements = () => {
             </div>
           </div>
 
-          <Button variant="cyber" size="lg" className="text-lg px-8 py-4">
+          <div
+            aria-disabled="true"
+            className={buttonVariants({ variant: 'cyber', size: 'lg', className: 'text-lg px-8 py-4 select-none' })}
+          >
             Start Building Your Idea
-          </Button>
+          </div>
         </div>
       </div>
     </section>

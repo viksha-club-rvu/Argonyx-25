@@ -1,25 +1,25 @@
 import { Button } from '@/components/ui/button';
 import { ExternalLink } from 'lucide-react';
-import gallery1 from '@/assets/gallery-1.jpg';
+import gallery1 from '@/assets/gallery-1.png';
 import gallery2 from '@/assets/gallery-2.jpg';
-import gallery3 from '@/assets/gallery-3.jpg';
+import gallery3 from '@/assets/gallery-3.png';
 
 const GallerySection = () => {
   const galleryImages = [
     {
       src: gallery1,
-      alt: "ARGONYX '24 - Hackathon Coding Session",
-      title: "Coding Marathon"
+      alt: "ARGONYX '24 - Web Dev Track Winners",
+      title: "Web Track Winners - Team O(win)"
     },
     {
       src: gallery2,
-      alt: "ARGONYX '24 - Team Presentations",
-      title: "Project Showcase"
+      alt: "ARGONYX '24 - Volunteers",
+      title: "Organizing Committee"
     },
     {
       src: gallery3,
       alt: "ARGONYX '24 - Winners Celebration",
-      title: "Victory Moments"
+      title: "AI/ML Track Winners - Team_MFSS"
     }
   ];
 

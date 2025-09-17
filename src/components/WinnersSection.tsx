@@ -1,4 +1,5 @@
 import { Trophy, Medal, Award } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const prizeStructure = [
   {
@@ -83,7 +84,7 @@ const WinnersSection = () => {
         </div>
 
         {/* Judging Criteria */}
-        <div className="glass-card p-8 mb-16">
+        {/* <div className="glass-card p-8 mb-16">
           <h3 className="text-3xl font-orbitron font-bold text-gradient text-center mb-8">
             Judging Criteria
           </h3>
@@ -103,7 +104,7 @@ const WinnersSection = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Registration Info */}
         <div className="text-center glass-card p-8">
@@ -115,14 +116,14 @@ const WinnersSection = () => {
               <h4 className="text-xl font-orbitron font-bold text-primary mb-3">Round 1: Online Screening</h4>
               <div className="text-3xl font-orbitron font-bold text-accent mb-2">₹100</div>
               <p className="text-muted-foreground text-sm">
-                Submit your idea presentation • Up to 200 teams • Non-refundable
+                Submit your idea presentation • Via Unstop • Non-refundable
               </p>
             </div>
             <div className="text-center">
               <h4 className="text-xl font-orbitron font-bold text-secondary mb-3">Round 2: Final Hackathon</h4>
               <div className="text-3xl font-orbitron font-bold text-accent mb-2">₹600</div>
               <p className="text-muted-foreground text-sm">
-                21-hour hackathon • 35 selected teams • Non-refundable
+                Overnight hackathon • 35 selected teams • Non-refundable
               </p>
             </div>
           </div>
@@ -132,6 +133,12 @@ const WinnersSection = () => {
           <div className="text-4xl font-orbitron font-bold text-gradient">
             ARGONYX '25 AWAITS
           </div>
+          <br />
+          <a href="https://unstop.com/p/argonyx-25-rv-university-bangalore-1558242" target="_blank" rel="noopener noreferrer">
+          <Button variant="cyber" size="lg" className="text-lg px-8 py-6">
+            Register Now
+          </Button>
+          </a>
         </div>
       </div>
     </section>

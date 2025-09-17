@@ -51,8 +51,7 @@ const SponsorsSection = () => {
   return (
     <section id="sponsors" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        {/* Sponsors */}
-        <div className="text-center mb-16">
+       {/* <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-gradient mb-4">
             Our Sponsors
           </h2>
@@ -93,7 +92,6 @@ const SponsorsSection = () => {
           ))}
         </div>
 
-        {/* Collaborators */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-gradient mb-4">
             Collaborators
@@ -118,6 +116,7 @@ const SponsorsSection = () => {
             </div>
           ))}
         </div>
+        */}
 
         {/* Become a Sponsor CTA */}
         <div className="text-center glass-card p-12">
@@ -131,9 +130,12 @@ const SponsorsSection = () => {
             <button className="px-8 py-4 bg-gradient-cyber text-foreground font-orbitron font-bold rounded-xl hover:scale-105 transition-transform duration-300 shadow-glow-primary">
               Partnership Deck
             </button>
-            <button className="px-8 py-4 border border-primary/50 text-primary font-orbitron font-bold rounded-xl hover:bg-primary/10 transition-all duration-300">
+            <a
+              href="mailto:club_viksha@rvu.edu.in"
+              className="px-8 py-4 border border-primary/50 text-primary font-orbitron font-bold rounded-xl hover:bg-primary/10 transition-all duration-300 text-center"
+            >
               Contact Us
-            </button>
+            </a>
           </div>
         </div>
       </div>

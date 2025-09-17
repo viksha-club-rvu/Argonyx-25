@@ -23,9 +23,9 @@ const Navigation = () => {
     { label: 'About', href: '#about' },
     { label: 'Verticals', href: '#verticals' },
     { label: 'Schedule', href: '#schedule' },
-    { label: 'Problems', href: '#problems' },
+    { label: 'Open Theme', href: '#problems' },
     { label: 'Gallery', href: '#gallery' },
-    { label: 'Winners', href: '#winners' },
+    { label: 'Prize', href: '#winners' },
     { label: 'Sponsors', href: '#sponsors' },
   ];
 
@@ -63,12 +63,12 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-gradient-cyber flex items-center justify-center">
+            {/* <div className="w-10 h-10 rounded-lg bg-gradient-cyber flex items-center justify-center">
               <span className="text-xl font-orbitron font-bold">A</span>
-            </div>
-            <span className="text-xl font-orbitron font-bold text-gradient">
+            </div> */}
+            <a href="/" className="text-xl font-orbitron font-bold text-gradient">
               ARGONYX '25
-            </span>
+            </a>
           </div>
 
           {/* Desktop Navigation */}
