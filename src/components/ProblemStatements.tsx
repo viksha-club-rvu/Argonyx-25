@@ -19,7 +19,7 @@ const ProblemStatements = () => {
           </h3>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
             Argonyx '25 is an open format hackathon where you have complete freedom to innovate. 
-            Whether it's AI/ML, web development, mobile apps, IoT solutions, or any cutting-edge technology - 
+            Whether it's AI/ML, web development, mobile apps, or any cutting-edge technology - 
             the choice is yours. Build something you're passionate about and make it count!
           </p>
           

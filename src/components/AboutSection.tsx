@@ -81,7 +81,6 @@ const AboutSection = () => {
                   "Any Technology Stack",
                   "AI/ML & Web Development",
                   "Mobile & Cloud Solutions",
-                  "IoT & Hardware Integration",
                   "Social Impact Projects"
                 ]}
                 icon={Brain}
