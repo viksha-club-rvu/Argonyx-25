@@ -68,12 +68,12 @@ const Navigation = () => {
               {clubLogos.map((logo, index) => (
                 <div
                   key={index}
-                  className="w-10 h-10 rounded-full overflow-hidden transition-all duration-300 hover:scale-110 glow-primary hover:glow-secondary"
+                  className="w-16 h-12 flex items-center justify-center rounded-md transition-all duration-300 hover:scale-110"
                 >
                   <img
                     src={logo.src}
                     alt={logo.alt}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
               ))}
@@ -99,12 +99,12 @@ const Navigation = () => {
               {clubLogos.map((logo, index) => (
                 <div
                   key={index}
-                  className="w-9 h-9 rounded-full overflow-hidden transition-all duration-300 hover:scale-110 glow-primary hover:glow-secondary"
+                  className="w-12 h-9 flex items-center justify-center rounded-md transition-all duration-300 hover:scale-110"
                 >
                   <img
                     src={logo.src}
                     alt={logo.alt}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
               ))}
