@@ -83,7 +83,7 @@ const AboutSection = () => {
                   "AI/ML or Web Development",
                   "Mobile or Cloud Solutions",
                   "Social Impact Projects",
-                  "Anything PS on your mind"
+                  "Any Problem Statement on your mind"
                 ]}
                 icon={Brain}
                 gradient="primary"
