@@ -53,8 +53,11 @@ const WinnersSection = () => {
           {prizeStructure.map((prize, index) => (
             <div
               key={prize.position}
+              className={`${prize.position === 1 ? 'md:px-4' : prize.position === 2 ? 'md:px-2' : ''}`}
+            >
+            <div
               className={`glass-card p-8 text-center relative overflow-hidden group hover-glow transition-all duration-500 
-              ${prize.position === 1 ? 'md:scale-110 md:-mt-8' : ''}`}
+              ${prize.position === 1 ? 'md:scale-110 md:-mt-8' : prize.position === 2 ? 'md:scale-105 md:-mt-4' : ''}`}
             >
               {/* Gradient Background */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10 opacity-50 group-hover:opacity-70 transition-opacity duration-500" />
@@ -79,6 +82,7 @@ const WinnersSection = () => {
                   {prize.description}
                 </p>
               </div>
+            </div>
             </div>
           ))}
         </div>
