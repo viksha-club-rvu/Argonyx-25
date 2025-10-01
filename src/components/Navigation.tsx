@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { Menu, X } from 'lucide-react';
@@ -50,9 +49,9 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Title only on left */}
-          <Link to="/" className="text-xl font-orbitron font-bold text-gradient">
+          <a href="/" className="text-lg md:text-xl font-orbitron font-bold text-gradient">
             ARGONYX '25
-          </Link>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
@@ -76,7 +75,7 @@ const Navigation = () => {
                   <Tooltip>
                     <TooltipTrigger asChild>
                       <div
-                        className="w-16 h-12 flex items-center justify-center rounded-md transition-all duration-300 hover:scale-110 cursor-pointer"
+                        className="w-14 h-10 flex items-center justify-center rounded-md transition-all duration-300 hover:scale-110 cursor-pointer"
                       >
                         <img
                           src={logo.src}
@@ -118,7 +117,7 @@ const Navigation = () => {
                   <Tooltip>
                     <TooltipTrigger asChild>
                       <div
-                        className="w-12 h-9 flex items-center justify-center rounded-md border-2 border-black dark:border-white transition-all duration-300 hover:scale-110 cursor-pointer"
+                        className="w-10 h-8 flex items-center justify-center rounded-md transition-all duration-300 hover:scale-110 cursor-pointer"
                       >
                         <img
                           src={logo.src}
