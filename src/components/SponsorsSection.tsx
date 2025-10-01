@@ -127,9 +127,14 @@ const SponsorsSection = () => {
             Join us in empowering the next generation of innovators at RV University and showcase your brand to brilliant minds
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-gradient-cyber text-foreground font-orbitron font-bold rounded-xl hover:scale-105 transition-transform duration-300 shadow-glow-primary">
+            <a
+              href="/partnership-deck.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-gradient-cyber text-foreground font-orbitron font-bold rounded-xl hover:scale-105 transition-transform duration-300 shadow-glow-primary"
+            >
               Partnership Deck
-            </button>
+            </a>
             <a
               href="mailto:club_viksha@rvu.edu.in"
               className="px-8 py-4 border border-primary/50 text-primary font-orbitron font-bold rounded-xl hover:bg-primary/10 transition-all duration-300 text-center"

@@ -134,7 +134,7 @@ const WinnersSection = () => {
             ARGONYX '25 AWAITS
           </div>
           <br />
-          <a href="https://unstop.com/p/argonyx-25-rv-university-bangalore-1558242" target="_blank" rel="noopener noreferrer">
+          <a href="https://unstop.com/hackathons/argonyx25-kalpavikas-10-rv-university-1563627" target="_blank" rel="noopener noreferrer">
           <Button variant="cyber" size="lg" className="text-lg px-8 py-6">
             Register Now
           </Button>

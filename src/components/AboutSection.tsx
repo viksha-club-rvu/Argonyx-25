@@ -1,5 +1,6 @@
 import { Brain, Code, Zap, Trophy, Clock } from 'lucide-react';
 import VerticalCard from './VerticalCard';
+import Kalpavikas from '@/components/Kalpavikas';
 
 const features = [
   {
@@ -15,7 +16,7 @@ const features = [
   {
     icon: Zap,
     title: "Open Innovation",
-    description: "Choose your own problem"
+    description: "Choose your own problem statement"
   }
 ];
 
@@ -30,7 +31,7 @@ const AboutSection = () => {
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Argonyx '25 is the ultimate hackathon experience where innovation meets real-world impact.
+              Argonyx '25 is the ultimate hackathon experience, presented by Kalpavikas 1.0 — where innovation meets real-world impact.
               Join brilliant minds for 15 hours of intense coding, learning, and building the future at RV University.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
@@ -60,7 +61,7 @@ const AboutSection = () => {
             </div>
           ))}
         </div>
-
+          <Kalpavikas />
         {/* Innovation Section */}
         <div id="verticals" className="mb-20">
           <div className="text-center mb-16">
