@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { Menu, X } from 'lucide-react';
@@ -49,9 +50,9 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Title only on left */}
-          <a href="/" className="text-xl font-orbitron font-bold text-gradient">
+          <Link to="/" className="text-xl font-orbitron font-bold text-gradient">
             ARGONYX '25
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
