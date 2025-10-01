@@ -30,8 +30,9 @@ jobs:
       - name: Install deps
         run: npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Build (GitHub Pages base)
+        # We set VITE_BASE_URL so Vite builds asset paths with /Argonyx-25/
+        run: VITE_BASE_URL=/Argonyx-25/ npm run build
 
       - name: Show dist
         run: ls -la dist || true
