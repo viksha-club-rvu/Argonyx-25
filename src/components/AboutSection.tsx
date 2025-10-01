@@ -80,9 +80,10 @@ const AboutSection = () => {
                 features={[
                   "Complete Creative Freedom",
                   "Any Technology Stack",
-                  "AI/ML & Web Development",
-                  "Mobile & Cloud Solutions",
-                  "Social Impact Projects"
+                  "AI/ML or Web Development",
+                  "Mobile or Cloud Solutions",
+                  "Social Impact Projects",
+                  "Anything PS on your mind"
                 ]}
                 icon={Brain}
                 gradient="primary"

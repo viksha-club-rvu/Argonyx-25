@@ -128,7 +128,7 @@ const SponsorsSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/partnership-deck.pdf"
+              href="https://drive.google.com/file/d/1WgIR1GItXloyn-Z489EFoU8v9agy2m2U/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-gradient-cyber text-foreground font-orbitron font-bold rounded-xl hover:scale-105 transition-transform duration-300 shadow-glow-primary"

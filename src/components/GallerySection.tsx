@@ -55,7 +55,7 @@ const GallerySection = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-4 left-4">
-                    <h3 className="text-lg font-orbitron font-semibold text-white">
+                    <h3 className="text-lg font-orbitron font-semibold text-black dark:text-white">
                       {image.title}
                     </h3>
                   </div>
