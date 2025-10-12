@@ -6,6 +6,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Argonyx24 from "./pages/Argonyx24";
+import Winners24 from "./pages/Winners24";
 
 const queryClient = new QueryClient();
 
@@ -30,9 +32,11 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename={basename}>
+        <BrowserRouter basename="/">
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/argonyx24" element= {<Argonyx24/>}></Route>
+            <Route path="/winners24" element= {<Winners24/>}></Route>
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

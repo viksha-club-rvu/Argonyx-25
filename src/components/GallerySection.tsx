@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 import { ExternalLink } from 'lucide-react';
 import gallery1 from '@/assets/gallery-1.png';
 import gallery2 from '@/assets/gallery-2.jpg';
@@ -67,15 +68,16 @@ const GallerySection = () => {
 
         {/* Previous Website Button */}
         <div className="text-center">
+        <Link to="/argonyx24">
           <Button 
             variant="cyber" 
             size="lg"
-            onClick={() => window.open('https://www.argonyx.in/', '_blank')}
             className="group"
           >
             <ExternalLink className="w-5 h-5 mr-2 transition-transform group-hover:translate-x-1" />
             Visit ARGONYX '24 Website
           </Button>
+        </Link>
         </div>
 
         {/* Floating particles */}
