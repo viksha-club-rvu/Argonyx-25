@@ -25,12 +25,12 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { label: 'About', href: '#about' },
-    { label: 'Schedule', href: '#schedule' },
-    { label: 'Open Theme', href: '#problems' },
-    { label: 'Gallery', href: '#gallery' },
-    { label: 'Prize', href: '#winners' },
-    { label: 'Sponsors', href: '#sponsors' },
+    { label: 'About', href: '/#about' },
+    { label: 'Schedule', href: '/#schedule' },
+    { label: 'Open Theme', href: '/#problems' },
+    { label: 'Gallery', href: '/#gallery' },
+    { label: 'Prize', href: '/#winners' },
+    { label: 'Sponsors', href: '/#sponsors' },
   ];
 
   const clubLogos = [

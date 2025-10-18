@@ -1,6 +1,8 @@
 import { Brain, Code, Zap, Trophy, Clock } from 'lucide-react';
 import VerticalCard from './VerticalCard';
 import Kalpavikas from '@/components/Kalpavikas';
+import MeetWinnersJudges from '@/components/MeetWinnersJudges';
+import VOlunteers25 from "@/components/Volunteers25";
 
 const features = [
   {
@@ -62,6 +64,7 @@ const AboutSection = () => {
           ))}
         </div>
           <Kalpavikas />
+          <MeetWinnersJudges/>
         {/* Innovation Section */}
         <div id="verticals" className="mb-20">
           <div className="text-center mb-16">
@@ -91,6 +94,7 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
+        <VOlunteers25/>
       </div>
     </section>
   );

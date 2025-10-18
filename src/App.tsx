@@ -8,7 +8,8 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Argonyx24 from "./pages/Argonyx24";
 import Winners24 from "./pages/Winners24";
-
+import Winners25 from "./pages/Winners25";
+import Judges25 from "./pages/Judges25";
 const queryClient = new QueryClient();
 
 const rawBase =
@@ -35,6 +36,8 @@ const App = () => (
         <BrowserRouter basename="/">
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/winners25" element= {<Winners25/>}></Route>
+            <Route path="/judges25" element= {<Judges25/>}></Route>
             <Route path="/argonyx24" element= {<Argonyx24/>}></Route>
             <Route path="/winners24" element= {<Winners24/>}></Route>
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
