@@ -25,7 +25,7 @@ const GallerySection = () => {
   ];
 
   return (
-    <section id="gallery" className="py-20 px-4 relative overflow-hidden">
+    <section className="py-20 px-4 relative overflow-hidden">
       {/* Background Grid */}
       <div className="absolute inset-0 cyber-grid opacity-20" />
       
@@ -75,7 +75,7 @@ const GallerySection = () => {
             className="group"
           >
             <ExternalLink className="w-5 h-5 mr-2 transition-transform group-hover:translate-x-1" />
-            Visit ARGONYX '24 Website
+            Visit ARGONYX '24
           </Button>
         </Link>
         </div>

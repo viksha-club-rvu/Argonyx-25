@@ -59,20 +59,20 @@ const HeroSection = () => {
         </div>
 
         {/* Countdown */}
-        <div className="mb-10 sm:mb-12">
+        {/* <div className="mb-10 sm:mb-12">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-orbitron font-bold text-center mb-6 sm:mb-8">
             Event Starts In
           </h2>
           <CountdownTimer />
-        </div>
+        </div> */}
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-          <a href="https://unstop.com/hackathons/argonyx25-kalpavikas-10-rv-university-1563627" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://unstop.com/hackathons/argonyx25-kalpavikas-10-rv-university-1563627" target="_blank" rel="noopener noreferrer">
             <Button variant="cyber" size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6">
               Register Now
             </Button>
-          </a>
+          </a> */}
           <a href="#about">
             <Button variant="outline" size="lg" className="text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6">
               Learn More

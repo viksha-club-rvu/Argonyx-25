@@ -15,8 +15,8 @@ const Index = () => {
       {/* <ClubLogos /> */}
       <HeroSection />
       <AboutSection />
-      <ScheduleSection />
-      <ProblemStatements />
+      {/* <ScheduleSection /> */}
+      {/* <ProblemStatements /> */}
       <GallerySection />
       <WinnersSection />
       <SponsorsSection />

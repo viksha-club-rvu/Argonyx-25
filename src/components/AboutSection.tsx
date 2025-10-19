@@ -2,7 +2,7 @@ import { Brain, Code, Zap, Trophy, Clock } from 'lucide-react';
 import VerticalCard from './VerticalCard';
 import Kalpavikas from '@/components/Kalpavikas';
 import MeetWinnersJudges from '@/components/MeetWinnersJudges';
-import VOlunteers25 from "@/components/Volunteers25";
+import Volunteers25 from "@/components/Volunteers25";
 
 const features = [
   {
@@ -66,7 +66,7 @@ const AboutSection = () => {
           <Kalpavikas />
           <MeetWinnersJudges/>
         {/* Innovation Section */}
-        <div id="verticals" className="mb-20">
+        {/* <div id="verticals" className="mb-20">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-gradient mb-4">
               Open Theme Challenge
@@ -93,8 +93,8 @@ const AboutSection = () => {
               />
             </div>
           </div>
-        </div>
-        <VOlunteers25/>
+        </div> */}
+        <Volunteers25/>
       </div>
     </section>
   );

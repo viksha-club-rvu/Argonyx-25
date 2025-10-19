@@ -111,7 +111,7 @@ const WinnersSection = () => {
         </div> */}
 
         {/* Registration Info */}
-        <div className="text-center glass-card p-8">
+        {/* <div className="text-center glass-card p-8">
           <h3 className="text-3xl font-orbitron font-bold text-gradient mb-6">
             Registration Process
           </h3>
@@ -143,7 +143,7 @@ const WinnersSection = () => {
             Register Now
           </Button>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

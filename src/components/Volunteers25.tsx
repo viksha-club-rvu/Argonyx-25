@@ -19,7 +19,7 @@ export default function Volunteers25() {
   };
 
   return (
-    <section className="py-20 px-4 relative overflow-hidden">
+    <section id="gallery" className="py-20 px-4 relative overflow-hidden">
       <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-4xl sm:text-5xl font-orbitron font-bold text-gradient mb-4">
           Meet Our Volunteers

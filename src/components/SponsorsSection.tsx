@@ -16,6 +16,9 @@ const SponsorsSection = () => {
           onClick={() => window.open(sponsor.website, "_blank")}
           className="glass-card p-10 flex flex-col items-center justify-center hover-glow cursor-pointer transition-all duration-500 hover:scale-105"
         >
+          <h3 className="text-3xl font-orbitron font-bold text-gradient mb-4">
+            Supporting Partner
+          </h3>
           <img
             src={sponsor.logo}
             alt={sponsor.name}
